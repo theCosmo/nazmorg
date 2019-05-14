@@ -14,7 +14,7 @@ def get_message():
     return "!", 200
 
 
-@server.route(methods=["GET"])
+@server.route(methods=['GET'])
 def index():
     new_echo_bot.remove_webhook()
     new_echo_bot.set_webhook(url="https://{}.herokuapp.com/{}".format(APP_NAME, TOKEN))
@@ -22,4 +22,4 @@ def index():
 
 
 if __name__ == "__main__":
-    server.run(host="0.0.0.0", port=int(os.environ.get('PORT', 50)))
+    server.run(host="0.0.0.0", port=int(os.environ.get('PORT', 5000)))
