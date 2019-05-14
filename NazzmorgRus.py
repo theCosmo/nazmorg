@@ -40,4 +40,4 @@ def handle_guessed_number(message):
             message.chat.id, "Угадай число из представленных ниже:", reply_markup=markup)
 
 
-new_echo_bot.polling()
+new_echo_bot.polling(none_stop=True)
