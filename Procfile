@@ -1,1 +1,1 @@
-web: python Nazzmorg1.0Rus.py
+web: python NazzmorgRus.py
