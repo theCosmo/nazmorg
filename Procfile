@@ -1,1 +1,1 @@
-web: python -i NazzmorgRus.py
+web: python NazzmorgRus.py
