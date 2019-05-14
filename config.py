@@ -1,0 +1,2 @@
+TOKEN = '850340793:AAEcRbvrX3CRCdJsrLycOZCa7jlzYcNMGBQ'
+APP_NAME = 'nazmorg'
