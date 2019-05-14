@@ -17,7 +17,7 @@ def get_message():
 @server.route(methods=['GET'])
 def index():
     new_echo_bot.remove_webhook()
-    new_echo_bot.set_webhook(url="https://{}.herokuapp.com/{}".format(APP_NAME, TOKEN))
+    new_echo_bot.set_webhook(url="https://{}.herokuapp.com".format(APP_NAME, TOKEN))
     return "Hello from Heroku!", 200
 
 
